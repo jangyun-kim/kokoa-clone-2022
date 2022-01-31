@@ -8,7 +8,7 @@
     <title>Chat w/ 발냄새 대마왕 - Kokoa Clone</title>
   </head>
 
-  <body>
+  <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -26,46 +26,57 @@
 
     <header class="alt-header">
       <div class="alt-header__column">
-        <a href="more.html">
+        <a href="chats.html">
           <i class="fas fa-arrow-left fa-lg"></i>
         </a>
       </div>
       <div class="alt-header__column">
-        <h1 class="alt-header__title">Settings</h1>
+        <h1 class="alt-header__title">발냄새 대마왕</h1>
       </div>
       <div class="alt-header__column">
         <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
       </div>
     </header>
 
-    <main class="main-screen">
-      <ul class="settings-list">
-        <li class="settings__setting">
-          <div class="settings__setting-column">
-            <i class="fas fa-bullhorn"></i>
-            <span>Notices</span>
-          </div>
-          <div class="settings__setting-column"></div>
-        </li>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Monday, January 31, 2022</div>
 
-        <li class="settings__setting">
-          <div class="settings__setting-column">
-            <i class="fas fa-flask"></i>
-            <span>Kokoa Lab</span>
-          </div>
-          <div class="settings__setting-column"></div>
-        </li>
+      <div class="message-row">
+        <img src="https://t1.daumcdn.net/cfile/tistory/992C6D475C5C225D32" />
 
-        <li class="settings__setting">
-          <div class="settings__setting-column">
-            <i class="fas fa-info-circle"></i>
-            <span>Version</span>
+        <div class="message-row__items">
+          <span class="message__author">발냄새 대마왕</span>
+          <div class="message__item">
+            <span class="message__content">
+              꿈은 도망가지 않아. 도망가는 건 언제나 자기 자신이지.
+            </span>
+            <span class="message__time">17:07</span>
           </div>
-          <div class="settings__setting-column">Latest Version</div>
-        </li>
-      </ul>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__items">
+          <div class="message__item">
+            <span class="message__content"> 우와..! </span>
+            <span class="message__time">17:07</span>
+          </div>
+        </div>
+      </div>
     </main>
 
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button><i class="fas fa-arrow-up"></i></button>
+      </div>
+    </form>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
