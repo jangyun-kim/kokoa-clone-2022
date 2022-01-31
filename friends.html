@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Friends - Kokoa Clone</title>
   </head>
-  <body>
+  <body id="friend-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -60,7 +60,7 @@
           <i class="fas fa-chevron-up fa-xs"></i>
         </div>
         <div class="user-component">
-          <div class="user-component__column lucy">
+          <div class="user-component__column channel">
             <img
               src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA3MjJfMTk3%2FMDAxNjI2ODgwMzg3MzI2.tXMEdm3OJHz5R0MGodHaZvJvvNVyALB-owYzGh41oRgg.5aepeTMll256_hGoRq8yFxhJdZA1cFqVttQkoEhxcR4g.JPEG.sallykim98%2FIMG_6884.JPG&type=sc960_832"
               class="user-component__photo user-component__photo--sm"
@@ -77,6 +77,101 @@
               <i class="fas fa-chevron-right fa-xs"></i>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div class="friends-screen__friends">
+        <div class="friends-screen__friends-header">
+          <span>Friends 8</span>
+        </div>
+        <div class="user-component friend">
+          <div class="user-component__column">
+            <img
+              src="http://file3.instiz.net/data/file3/2018/02/07/e/f/6/ef6900753d55c48ea700b2bc828cf0ab.jpg"
+              class="user-component__photo user-component__photo--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                잔소리대마왕
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+
+        <div class="user-component friend">
+          <div class="user-component__column">
+            <img
+              src="https://t1.daumcdn.net/cfile/tistory/992C6D475C5C225D32"
+              class="user-component__photo user-component__photo--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                발냄새 대마왕
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+
+        <div class="user-component friend">
+          <div class="user-component__column">
+            <img
+              src="https://mindlogic-metaverse-face.s3.ap-northeast-2.amazonaws.com/custom/18365-1633798228399.jpg"
+              class="user-component__photo user-component__photo--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                짱아
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+
+        <div class="user-component friend">
+          <div class="user-component__column">
+            <img
+              src="https://cdnweb01.wikitree.co.kr/webdata/editor/202103/23/img_20210323144951_67bba4a3.webp"
+              class="user-component__photo user-component__photo--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                철수
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+
+        <div class="user-component friend">
+          <div class="user-component__column">
+            <img
+              src="https://w.namu.la/s/cd034f0ab0cff3b1a98c0b3e11817a41c4174849e7edc5c2735508d0a36c324a79842ce7d390fbb119d36e252b01ef8796f0e93009451f377308413f4f198a40d120398c20d8bb86aec5fdf7410d4ccedcc869fb6ee6203ab1b2c4b2bbfa91c2"
+              class="user-component__photo user-component__photo--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                이슬이누나
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+
+        <div class="user-component friend">
+          <div class="user-component__column">
+            <img
+              src="http://upload2.inven.co.kr/upload/2019/10/08/bbs/i15740641285.jpg"
+              class="user-component__photo user-component__photo--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                훈발놈
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
         </div>
       </div>
     </div>
@@ -115,10 +210,11 @@
       </ul>
     </nav>
 
-    <div id="splash-screen">
+    <div id="not-allowed">
       <img
         src="https://item.kakaocdn.net/do/05ac6009595cfe9c9a69875e3a446efa8f324a0b9c48f77dbce3a43bd11ce785"
       />
+      <span>Your screen is too big...</span>
     </div>
 
     <script

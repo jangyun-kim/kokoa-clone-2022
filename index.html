@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Kokoa Clone</title>
   </head>
-  <body>
+  <body id="index-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -31,11 +31,28 @@
     </header>
 
     <form action="friends.html" method="get" id="login-form">
-      <input name="username" type="text" placeholder="Email or phone number" />
-      <input name="password" type="password" placeholder="Password" />
-      <input type="submit" value="Log In" />
+      <input
+        class="login-info"
+        name="username"
+        type="text"
+        placeholder="Email or phone number"
+      />
+      <input
+        class="login-info"
+        name="password"
+        type="password"
+        placeholder="Password"
+      />
+      <input class="login-btn" type="submit" value="Log In" />
       <a href="#">Find Kokoa Account or Password</a>
     </form>
+
+    <div id="not-allowed">
+      <img
+        src="https://item.kakaocdn.net/do/05ac6009595cfe9c9a69875e3a446efa8f324a0b9c48f77dbce3a43bd11ce785"
+      />
+      <span>Your screen is too big...</span>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"

@@ -8,7 +8,7 @@
     <title>Settings - Kokoa Clone</title>
   </head>
 
-  <body>
+  <body id="settings-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -43,7 +43,7 @@
         <li class="settings__setting">
           <div class="settings__setting-column">
             <i class="fas fa-bullhorn"></i>
-            <span>Notices</span>
+            <span>Announcement</span>
           </div>
           <div class="settings__setting-column"></div>
         </li>
@@ -63,7 +63,89 @@
           </div>
           <div class="settings__setting-column">Latest Version</div>
         </li>
+
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-unlock-alt"></i>
+            <span>Personal/Security</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="far fa-bell"></i>
+            <span>Notices</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="far fa-user"></i>
+            <span>Friends</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="far fa-comment"></i>
+            <span>Chats</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="far fa-user-circle"></i>
+            <span>Mult-profile</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-tv"></i>
+            <span>Display</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-brush"></i>
+            <span>Themes</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-phone-alt"></i>
+            <span>Calls</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-ellipsis-h"></i>
+            <span>Others</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
       </ul>
+
+      <div class="settings__logout">
+        <a href="index.html">
+          <div class="settings__setting-column">
+            <i class="fas fa-sign-out-alt"></i>
+            <span>Log Out</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </a>
+      </div>
     </main>
 
     <nav class="nav">
@@ -100,6 +182,13 @@
         </li>
       </ul>
     </nav>
+
+    <div id="not-allowed">
+      <img
+        src="https://item.kakaocdn.net/do/05ac6009595cfe9c9a69875e3a446efa8f324a0b9c48f77dbce3a43bd11ce785"
+      />
+      <span>Your screen is too big...</span>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"

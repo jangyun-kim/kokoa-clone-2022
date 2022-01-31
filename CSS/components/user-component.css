@@ -17,12 +17,12 @@
 
 .user-component__title {
   font-weight: 600;
-  font-size: 22px;
+  font-size: 30px;
 }
 
 .user-component__subtitle {
   margin-top: 8px;
-  font-size: 17px;
+  font-size: 23px;
   color: rgba(0, 0, 0, 0.4);
 }
 

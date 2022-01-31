@@ -1,8 +1,12 @@
+#find-screen {
+  background-color: var(--pink);
+}
+
 .recommended-friends {
   padding: 25px 0px;
   border-top: var(--main-border);
   border-bottom: var(--main-border);
-  margin: 25px 0px;
+  margin: 15px 0px;
 }
 
 .recommended-friends__title {
@@ -33,16 +37,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 10px;
 }
 
 .open-post__title {
   font-weight: 600;
   margin-bottom: 7px;
+  font-size: 20px;
 }
 
 .open-post__hashtags {
   text-transform: uppercase;
   opacity: 0.6;
+  font-size: 18px;
 }
 
 .open-post__members {
@@ -80,8 +87,8 @@
 }
 
 .open-post__repphoto img {
-  width: 120px;
-  height: 120px;
+  width: 70px;
+  height: 70px;
   border-radius: 10px;
 }
 

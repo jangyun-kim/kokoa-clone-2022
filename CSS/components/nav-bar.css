@@ -3,7 +3,7 @@
   bottom: 0;
   width: 100%;
   box-sizing: border-box;
-  background-color: #f9f9fa;
+  background-color: var(--pink);
   padding: 0px 50px;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
